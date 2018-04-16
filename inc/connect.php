@@ -4,7 +4,7 @@
 
     $username = 'root';
 
-    $password = 'Botan555';
+    $password = '';
 
     $database = 'techCo';
 
