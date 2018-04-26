@@ -3,25 +3,23 @@
 
     require 'employee_arrays.php';
 
-    $firstName = $_POST['firstname'];
-    $lastName = $_POST['lastname'];
-    $jobTitle = $_POST['jobtitle'];
-    $salary = $_POST['salary'];
-    $email = $_POST['email'];
+    $raw_firstName = $_POST['firstname'];
+    $raw_lastName = $_POST['lastname'];
+    $raw_jobTitle = $_POST['jobtitle'];
+    $raw_salary = $_POST['salary'];
+    $raw_email = $_POST['email'];
 
-//    function grabValue(){
-//        if(isset($_POST['jobtitle'])) {
-//            $jobTitle = $_POST['jobTitle'];
-//            echo $jobTitle;
-//        }         
-//    }
-//
-//    grabValue();
+    require 'clean_data.php';
 
-    echo $firstName . "<br>";
-    echo $lastName . "<br>";
-    echo $jobTitle . "<br>";
-    echo $salary . "<br>";
-    echo $email . "<br>";
+    require 'assign_department';
+
+    function processEmployee() {
+        // Takes the input variables and combines them into an associative array.
+        // Names the array as `first intial+last name` of employee. ????
+        // Sends the array to the `employee_arrays.php` file to be pushed to $employeeDatabase.
+        // From there, the new array gets passed through the `addToDatabase()` function.  
+    }
+
+    
 
 ?>
