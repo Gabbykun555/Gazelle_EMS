@@ -29,7 +29,9 @@
                <input class="form-control"type="checkbox" name="jobtitle" checked></li>
                    <li><label for="department">Department</label>
                <input class="form-control" type="checkbox" name="department" checked></li>
-                   <li><label for="emailaddress">Email Address</label>
+                   <li><label for="emailaddress">Salary</label>
+               <input class="form-control" type="checkbox" name="emailaddress" checked></li>
+                   <li><label for="emailaddress">Co. Email</label>
                <input class="form-control" type="checkbox" name="emailaddress" checked></li>
                </ul>
                <p></p>
