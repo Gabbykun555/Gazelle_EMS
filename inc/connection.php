@@ -2,7 +2,7 @@
 
     try {
     
-        $connection = new PDO('mysql:host=localhost;dbname=company_db;charset=utf8', 'gabby', 'Botan555');
+        $connection = new PDO('mysql:host=localhost;dbname=company_db;charset=utf8', 'username', 'password');
         
         $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
