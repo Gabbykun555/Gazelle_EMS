@@ -5,7 +5,7 @@
 
     function returnAllEmployees(){
         
-        $connection = mysqli_connect("localhost", "gabby", "Botan555", "company_db");
+        $connection = mysqli_connect("localhost", "username", "password", "company_db");
 
         if (mysqli_connect_errno()){
             
